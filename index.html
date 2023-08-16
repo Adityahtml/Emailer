@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emailer</title>
+    <!-- link font-family -->
+    <link href="https://fonts.cdnfonts.com/css/times-new-roman" rel="stylesheet">
+    <!-- Link Font Awesome 5.15.4 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Times New Roman', sans-serif;
+            font-style: normal;
+            font-size: 16px;
+            line-height: 25px;
+        }
+
+        @media screen and (max-width:600px) {
+            .main {
+                width: 100% !important;
+            }
+
+            .main-heading {
+                padding-left: 20px !important;
+                padding-right: 20px !important;
+            }
+
+            .main-listing {
+                padding-left: 20px !important;
+                padding-right: 20px !important;
+            }
+
+            .main-heading p {
+                padding-left: 5px !important;
+                padding-right: 5px !important;
+            }
+        }
+
+        @media screen and (max-width:475px) {
+            .logoBtn img {
+                height: 25px !important;
+            }
+
+            .logoBtn a {
+                padding-left: 15px !important;
+                padding-right: 15px !important;
+                font-size: 15px !important;
+            }
+
+            .main-heading {
+                padding-left: 10px !important;
+                padding-right: 10px !important;
+                font-size: 20px !important;
+                padding-top: 10px !important;
+                padding-bottom: 5px !important;
+            }
+
+            .main-listing td {
+                width: 100% !important;
+                display: inline-block !important;
+            }
+
+            .main-wrapper td {
+                width: 100% !important;
+                display: inline-block;
+                margin-bottom: ;
+                padding-bottom: 16px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <table cellspacing="0" cellpadding="0" align="center" valign="top" style="width: 100%;">
+        <tr>
+            <td td align="center" valign="top">
+                <table cellspacing="0" cellpadding="0" class="main" align="center" valign="top" bgcolor="#ccc"
+                    style="padding-top:10px; width:600px; padding-bottom:10px; padding-left:7px; padding-right:7px;">
+                    <tr>
+                        <td align="left" valign="top">
+                            <table cellspacing="0" cellpadding="0" align="left" valign="top"
+                                style="width: 100%; background-color: #f5f6fa; padding-top:5px;">
+                                <tr>
+                                    <td align="left" valign="top" style="width:100%;">
+                                        <table cellspacing="0" cellpadding="0" align="center" valign="center"
+                                            bgcolor="#fff"
+                                            style="padding-top:15px; padding-bottom:15px; width:100%; padding-left:15px; padding-right:15px;">
+                                            <tr>
+                                                <td align="left" valign="top" style="width: 100%;">
+                                                    <table cellspacing="0" cellpadding="0" align="center" valign="top"
+                                                        class="logoBtn" style="width:100%;">
+                                                        <tr>
+                                                            <td align="left" valign="center" style="width:50%;">
+                                                                <img src="images/logo.png" alt="images" height="38px">
+                                                            </td>
+                                                            <td align="right" valign="center" style="width:50%;">
+                                                                <a href="#"
+                                                                    style="text-decoration: none;color: #fff;background-color: #f54335;border-radius: 25px;padding-top: 9px;padding-bottom: 9px;padding-left: 40px;padding-right: 40px;">CTA
+                                                                    Here <span>
+                                                                        <i class="fas fa-angle-double-right"></i>
+                                                                    </span>
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="left" valign="top" style="width: 100%;">
+                                        <table cellspacing="0" cellpadding="0" style="width:100% " align="left"
+                                            valign="top">
+                                            <tr>
+                                                <td align="center" valign="top" class="main-heading"
+                                                    style="width: 100%; font-weight: 600; font-size: 25px; padding-top: 25px; padding-bottom: 25px;padding-left: 60px; padding-right: 60px;">
+                                                    Nunc a diam ac est tincidunt ornare
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" valign="top" style="width:100% "></td>
+                                                <table cellspacing="0" cellpadding="0" class="main-heading"
+                                                    style="width:100%; padding-left:109px; padding-right:109px; "
+                                                    align="center" valign="top">
+                                                    <tr>
+                                                        <td align="center" valign="top"
+                                                            style="width: 100%; font-weight: 600;text-transform: capitalize; font-size: 18px; background-color: #fff; text-align: left;border: 1px solid #ccc; border-top-left-radius: 10px;
+                                                            border-top-right-radius: 10px;  padding-left: 10px; padding-top: 3px;  padding-bottom: 3px;">
+                                                            intended for:
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" valign="top"
+                                                            style="width:100%; padding-top:3px; padding-bottom:3px">
+                                                            <table cellspacing="0" cellpadding="0" align="center"
+                                                                valign="top" style="width: 100%;">
+                                                                <tr>
+                                                                    <td align="left" valign="top"
+                                                                        style="width:39%; padding-right:3px;">
+                                                                        <table cellspacing="0" cellpadding="0"
+                                                                            align="center" valign="top"
+                                                                            style="width: 100%;">
+                                                                            <tr>
+                                                                                <td align="left" valign="top"
+                                                                                    style="width: 100%; font-weight: 600;text-transform: capitalize; font-size: 18px; background-color: #fff; text-align: left;border: 1px solid #ccc;   padding-left: 10px; padding-top: 3px;  padding-bottom: 3px;">
+                                                                                    name:
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                    <td align="left" valign="top"
+                                                                        style="width:59%; padding-left:3px;">
+                                                                        <table cellspacing="0" cellpadding="0"
+                                                                            align="center" valign="top"
+                                                                            style="width: 100%;">
+                                                                            <tr>
+                                                                                <td align="left" valign="top"
+                                                                                    style="width: 100%; font-weight: 500;text-transform: uppercase; font-size: 16px; background-color: #fff; text-align: left;border: 1px solid #ccc;   padding-left: 10px; padding-top: 3px;  padding-bottom: 3px;">
+                                                                                    [fname][lname]
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" valign="top"
+                                                            style="width:100%; padding-bottom:30px">
+                                                            <table cellspacing="0" cellpadding="0" align="center"
+                                                                valign="top" style="width: 100%;">
+                                                                <tr>
+                                                                    <td align="left" valign="top"
+                                                                        style="width:39%; padding-right:3px;">
+                                                                        <table cellspacing="0" cellpadding="0"
+                                                                            align="center" valign="top"
+                                                                            style="width: 100%;">
+                                                                            <tr>
+                                                                                <td align="left" valign="top"
+                                                                                    style="width: 100%; font-weight: 600;text-transform: capitalize; font-size: 18px; background-color: #fff; text-align: left;border: 1px solid #ccc; border-bottom-left-radius: 10px;   padding-left: 10px; padding-top: 3px;  padding-bottom: 3px;">
+                                                                                    state:
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                    <td align="left" valign="top"
+                                                                        style="width:59%; padding-left:3px;">
+                                                                        <table cellspacing="0" cellpadding="0"
+                                                                            align="center" valign="top"
+                                                                            style="width: 100%;">
+                                                                            <tr>
+                                                                                <td align="left" valign="top"
+                                                                                    style="width: 100%; font-weight: 500;text-transform: capitalize; font-size: 16px; background-color: #fff; text-align: left;border: 1px solid #ccc; border-bottom-right-radius: 10px;  padding-left: 10px; padding-top: 3px;  padding-bottom: 3px;">
+                                                                                    [state]
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" valign="top" class="main-heading" style="width:100%;padding-left: 40px; padding-bottom: 30px; padding-right: 40px; font-weight: 500;
+                                                font-size: 19px; text-align: center;">
+                                                    mauris tristique, nibh eu volutpat, nulla ligula vestibulum nulla <a
+                                                        href="#" style="color: #f54335;">vitae pellentesque</a> ex
+                                                    leo non tellus lorem suscipit cursurs.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" valign="top" class="main-listing"
+                                                    style="width:100%; padding-left:50px; padding-right:50px; padding-bottom:30px;">
+                                                    <table cellspacing="0" cellpadding="0" align="center" valign="top"
+                                                        style="width: 100%; background-color: #fff; border: 1px solid #ccc; padding-top:20px; padding-bottom:20px; padding-left:15px; padding-right:15px;">
+                                                        <tr>
+                                                            <td align="left" valign="middle"
+                                                                style="width: 50%;font-weight: 500; font-size: 15px;padding-bottom:5px;">
+                                                                <i class="fas fa-check"
+                                                                    style="font-size: 10px;padding-right: 5px;"></i>
+                                                                Mauris tristique
+                                                            </td>
+                                                            <td align="left" valign="middle"
+                                                                style="width: 50%;font-weight: 500; font-size: 15px;padding-bottom:5px;">
+                                                                <i class="fas fa-check"
+                                                                    style="font-size: 10px;padding-right: 5px;"></i>Nibh
+                                                                eu volutpat
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left" valign="middle"
+                                                                style="width: 50%;font-weight: 500; font-size: 15px;padding-bottom:5px;">
+                                                                <i class="fas fa-check"
+                                                                    style="font-size: 10px;padding-right: 5px;"></i>Nulla
+                                                                ligula vestibulum
+                                                            </td>
+                                                            <td align="left" valign="middle"
+                                                                style="width: 50%;font-weight: 500; font-size: 15px;padding-bottom:5px;">
+                                                                <i class="fas fa-check"
+                                                                    style="font-size: 10px;padding-right: 5px;"></i>ex
+                                                                leo non tellus
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left" valign="middle"
+                                                                style="width: 50%;font-weight: 500; font-size: 15px;">
+                                                                <i class="fas fa-check"
+                                                                    style="font-size: 10px;padding-right: 5px;"></i>
+                                                                Lorem, ipsum dolor.
+                                                            </td>
+                                                            <td align="left" valign="middle"
+                                                                style="width: 50%;font-weight: 500; font-size: 15px;">
+                                                                <i class="fas fa-check"
+                                                                    style="font-size: 10px;padding-right: 5px;"></i>Lorem
+                                                                ipsum dolor sit.
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" valign="center"
+                                                    style="width:100%; padding-bottom:30px;">
+                                                    <a href="#"
+                                                        style="text-decoration: none;color: #fff; display: inline-block; background-color: #f54335;border-radius: 25px;padding-top: 9px;padding-bottom: 9px;padding-left: 60px;padding-right: 60px;">CTA
+                                                        test goes Here <span>
+                                                            <i class="fas fa-angle-double-right"></i>
+                                                        </span>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" valign="top" style="width:100%;">
+                                                    <table cellspacing="0" cellpadding="0"
+                                                        class="main-heading main-wrapper" align="center" valign="top"
+                                                        style="width: 100%; background-color: #fff; padding-left:20px; padding-right:20px; padding-top:25px; padding-right:25px;">
+                                                        <tr>
+                                                            <td align="center" valign="top" style="width:33.33%; ">
+                                                                <div class="images"
+                                                                    style="width: 100px;height: 100px; border-top-left-radius: 50%;border-top-right-radius: 50%; border-bottom-right-radius: 50%; border-bottom-left-radius: 50%; background-color: #f5f6fa; vertical-align: middle; display: table-cell; text-align: center; border: 1px solid #ccc;">
+                                                                    <img src="images/tshirt.png" alt="images"
+                                                                        style="height: 35px;">
+                                                                </div>
+                                                                <p
+                                                                    style="text-align: center;padding-left: 30px;padding-right:30px; line-height: 20px;padding-top: 10px; padding-bottom:10px;">
+                                                                    Lorem ipsum dolor sit amet.
+                                                                </p>
+                                                            </td>
+                                                            <td align="center" valign="top" style="width:33.33%">
+                                                                <div class="images"
+                                                                    style="width: 100px;height: 100px; border-top-left-radius: 50%;border-top-right-radius: 50%; border-bottom-right-radius: 50%; border-bottom-left-radius: 50%; background-color: #f5f6fa; vertical-align: middle; display: table-cell; text-align: center; border: 1px solid #ccc;">
+                                                                    <img src="images/tshirt.png" alt="images"
+                                                                        style="height: 35px;">
+                                                                </div>
+                                                                <p
+                                                                    style="text-align: center;padding-left: 30px;padding-right:30px; line-height: 20px;padding-top: 10px; padding-bottom:10px;">
+                                                                    Lorem ipsum dolor sit amet.
+                                                                </p>
+                                                            </td>
+                                                            <td align="center" valign="top" style="width:33.33%">
+                                                                <div class="images"
+                                                                    style="width: 100px;height: 100px; border-top-left-radius: 50%;border-top-right-radius: 50%; border-bottom-right-radius: 50%; border-bottom-left-radius: 50%; background-color: #f5f6fa; vertical-align: middle; display: table-cell; text-align: center; border: 1px solid #ccc;">
+                                                                    <img src="images/tshirt.png" alt="images"
+                                                                        style="height: 35px;">
+                                                                </div>
+                                                                <p
+                                                                    style="text-align: center;padding-left: 30px;padding-right:30px; line-height: 20px;padding-top: 10px; padding-bottom:10px;">
+                                                                    Lorem ipsum dolor sit amet.
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" valign="center"
+                                                    style="width:100%; background-color: #000; padding-top:30px; padding-bottom:30px;text-align:center;padding-left:20px; padding-right:20px;color: #fff;">
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+                                                    commodi nisi, aliquam expedita quos, quisquam culpa ipsam fugiat
+                                                    eveniet non quod.
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+
+</body>
+
+</html>
